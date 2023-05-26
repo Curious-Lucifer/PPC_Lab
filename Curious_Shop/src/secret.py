@@ -1,0 +1,1 @@
+FLAG = 'Curious{Why_d1d_y0u_ju5t_br3ak_7he_ru1e?}'
