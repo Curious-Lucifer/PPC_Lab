@@ -9,4 +9,4 @@ WORKDIR /chal
 
 COPY ./src /chal
 
-CMD ["socat", "TCP-LISTEN:10000,fork", "EXEC:'timeout 10 python3 server.py'"]
+CMD ["socat", "TCP-LISTEN:10000,fork", "EXEC:'timeout 60 python3 server.py'"]
